@@ -81,7 +81,7 @@ function logout() {
     console.log(currentpage)
 
     if(!publicpage.includes(currentpage)&& ! localStorage.getItem("login")){
-        window.location.href = '/index.html';
+        window.location.href = 'index.html';
     }
 
 if (window.location.pathname.includes("profile.html")) {
@@ -110,4 +110,5 @@ if (eyeBtn) {
       
     }
   });
+
 }
